@@ -4,57 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy — Somedays</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: #0a191e;
-            color: #cbd5e1;
-            line-height: 1.7;
-            padding: 40px 20px;
-        }
-        .container { max-width: 680px; margin: 0 auto; }
-        h1 {
-            color: #fff;
-            font-size: 28px;
-            font-weight: 800;
-            margin-bottom: 8px;
-        }
-        .updated {
-            font-size: 13px;
-            color: #64748b;
-            margin-bottom: 36px;
-        }
-        h2 {
-            color: #e2e8f0;
-            font-size: 18px;
-            font-weight: 700;
-            margin-top: 32px;
-            margin-bottom: 12px;
-        }
-        p, li { font-size: 15px; margin-bottom: 12px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        a { color: #2dd4bf; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .highlight {
-            background: rgba(45, 212, 191, 0.08);
-            border-left: 3px solid #2dd4bf;
-            padding: 16px 20px;
-            border-radius: 0 8px 8px 0;
-            margin: 20px 0;
-        }
-        .footer {
-            margin-top: 48px;
-            padding-top: 24px;
-            border-top: 1px solid #1e293b;
-            font-size: 13px;
-            color: #475569;
-        }
-    </style>
+    <meta name="theme-color" content="#F6ECDD" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#17131F" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500..700&family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
+<header class="site-header">
+    <div class="wrap">
+        <a class="brand" href="/"><img src="icon.png" alt="">Somedays</a>
+        <nav class="site-nav">
+            <a class="hide-sm" href="/#how">How it works</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </div>
+</header>
+<main class="doc">
     <h1>Privacy policy</h1>
     <p class="updated">Last updated: April 20, 2026</p>
 
@@ -103,10 +71,17 @@
 
     <h2>Contact</h2>
     <p>Questions or a request about your data? We’re at <a href="mailto:feedback@somedays.app">feedback@somedays.app</a>.</p>
-
-    <div class="footer">
-        <p>&copy; 2026 Somedays. All rights reserved.</p>
+</main>
+<footer class="site-footer">
+    <div class="wrap">
+        <span>&copy; 2026 Somedays</span>
+        <nav>
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="delete-account.html">Delete account</a>
+        </nav>
     </div>
-</div>
+</footer>
 </body>
 </html>
